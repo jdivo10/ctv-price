@@ -7,7 +7,7 @@ const api = new BlockfrostAdapter({
     networkId: NetworkId.MAINNET,
 });
 
-app.get('/prices', async(req, res) => {
+app.get('/', async(req, res) => {
     let prices;
     let poolId;
     for (let i = 1;; i++) {
