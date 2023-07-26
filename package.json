@@ -12,6 +12,7 @@
     "dependencies": {
         "@emurgo/cardano-serialization-lib-nodejs": "^11.0.5",
         "@minswap/blockfrost-adapter": "^0.1.0",
+        "cors": "^2.8.5",
         "express": "^4.18.2",
         "node-fetch": "^2.6.6"
     }
