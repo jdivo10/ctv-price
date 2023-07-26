@@ -5,7 +5,9 @@ import { BlockfrostAdapter, NetworkId } from "@minswap/blockfrost-adapter";
 const app = express();
 // Set up CORS
 app.use(cors({
-    origin: ['https://adatokenvault.com/', 'http://dev-preview.adatokenvault.com/']
+    origin: '*',
+    methods: ['GET', 'POST'],
+    allowedHeaders: '*'
 }));
 
 
