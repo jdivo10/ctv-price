@@ -12,7 +12,7 @@ app.use(cors({
 
 
 const api = new BlockfrostAdapter({
-    projectId: "mainnet6qOtWugv56QPxT3x0H1jYfX1feK5N3do",
+    projectId: "mainnetzFTkLDTPNXT37SkNra7fGS4xjWwRVldY",
     networkId: NetworkId.MAINNET,
 });
 
