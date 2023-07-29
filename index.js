@@ -23,7 +23,7 @@ const api = new BlockfrostAdapter({
     networkId: NetworkId.MAINNET,
 });
 
-app.get('/prices', async(req, res) => {
+app.get('', async(req, res) => {
     const filePath = path.resolve(__dirname, 'lastPrice.json');
 
     if (fs.existsSync(filePath)) {

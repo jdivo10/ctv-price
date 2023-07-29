@@ -7,7 +7,7 @@
     "scripts": {
         "start": "node index.js"
     },
-    "author": "0xRabbit",
+    "author": "CTV",
     "license": "ISC",
     "dependencies": {
         "@emurgo/cardano-serialization-lib-nodejs": "^11.0.5",
